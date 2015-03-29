@@ -1,0 +1,1793 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+        <title>Statistics | learnR</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.0.0">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <link rel="next" href="../basic-functions/data.html" />
+    
+    
+    <link rel="prev" href="../basic-functions/math.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-katex/katex.min.css">
+        
+    
+    
+
+        
+    <div class="book" data-level="5.7" data-basepath=".." data-revision="Sun Mar 29 2015 10:14:02 GMT+0800 (China Standard Time)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="acknowledgment.html">
+            
+                
+                    <a href="../acknowledgment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Acknowledgment
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="quick-start/index.html">
+            
+                
+                    <a href="../quick-start/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Quick start
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="quick-start/what-is-r.html">
+            
+                
+                    <a href="../quick-start/what-is-r.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        What is R
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="quick-start/why-r.html">
+            
+                
+                    <a href="../quick-start/why-r.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Why R
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="quick-start/install-r.html">
+            
+                
+                    <a href="../quick-start/install-r.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Install R
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="quick-start/rstudio.html">
+            
+                
+                    <a href="../quick-start/rstudio.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        RStudio
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="quick-start/first-model.html">
+            
+                
+                    <a href="../quick-start/first-model.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        First model
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="basic-objects/index.html">
+            
+                
+                    <a href="../basic-objects/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Basic objects
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="basic-objects/vector.html">
+            
+                
+                    <a href="../basic-objects/vector.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Vector
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="basic-objects/matrix.html">
+            
+                
+                    <a href="../basic-objects/matrix.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Matrix
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="basic-objects/array.html">
+            
+                
+                    <a href="../basic-objects/array.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Array
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="basic-objects/list.html">
+            
+                
+                    <a href="../basic-objects/list.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        List
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="basic-objects/data-frame.html">
+            
+                
+                    <a href="../basic-objects/data-frame.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        Data frame
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="basic-objects/function.html">
+            
+                
+                    <a href="../basic-objects/function.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        Function
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="basic-objects/formula.html">
+            
+                
+                    <a href="../basic-objects/formula.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.</b>
+                        
+                        Formula
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="basic-expressions/index.html">
+            
+                
+                    <a href="../basic-expressions/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Basic expressions
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="basic-expressions/assignment.html">
+            
+                
+                    <a href="../basic-expressions/assignment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Assignment
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="basic-expressions/condition.html">
+            
+                
+                    <a href="../basic-expressions/condition.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Condition
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="basic-expressions/loop.html">
+            
+                
+                    <a href="../basic-expressions/loop.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        Loop
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="basic-functions/index.html">
+            
+                
+                    <a href="../basic-functions/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Basic functions
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="basic-functions/environment.html">
+            
+                
+                    <a href="../basic-functions/environment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        Environment
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="basic-functions/package.html">
+            
+                
+                    <a href="../basic-functions/package.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        Package
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="basic-functions/object.html">
+            
+                
+                    <a href="../basic-functions/object.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        Object
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="basic-functions/logical.html">
+            
+                
+                    <a href="../basic-functions/logical.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                        Logical
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="basic-functions/character.html">
+            
+                
+                    <a href="../basic-functions/character.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.5.</b>
+                        
+                        Character
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="basic-functions/math.html">
+            
+                
+                    <a href="../basic-functions/math.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.</b>
+                        
+                        Math
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.7" data-path="basic-functions/statistics.html">
+            
+                
+                    <a href="../basic-functions/statistics.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.</b>
+                        
+                        Statistics
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="basic-functions/data.html">
+            
+                
+                    <a href="../basic-functions/data.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.</b>
+                        
+                        Data
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="basic-functions/graphics.html">
+            
+                
+                    <a href="../basic-functions/graphics.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.9.</b>
+                        
+                        Graphics
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.10" data-path="basic-functions/apply-family.html">
+            
+                
+                    <a href="../basic-functions/apply-family.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.10.</b>
+                        
+                        Apply-family
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="basic-statistics/index.html">
+            
+                
+                    <a href="../basic-statistics/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Basic statistics
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="basic-statistics/preparing-data.html">
+            
+                
+                    <a href="../basic-statistics/preparing-data.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        Preparing data
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="basic-statistics/descriptive-statistics.html">
+            
+                
+                    <a href="../basic-statistics/descriptive-statistics.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        Descriptive statistics
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="basic-statistics/linear-regression.html">
+            
+                
+                    <a href="../basic-statistics/linear-regression.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        Linear regression
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="basic-statistics/hypothesis-testing.html">
+            
+                
+                    <a href="../basic-statistics/hypothesis-testing.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.4.</b>
+                        
+                        Hypothesis testing
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="basic-statistics/model-analysis.html">
+            
+                
+                    <a href="../basic-statistics/model-analysis.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.5.</b>
+                        
+                        Model analysis
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="basic-statistics/time-series-modeling.html">
+            
+                
+                    <a href="../basic-statistics/time-series-modeling.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.6.</b>
+                        
+                        Time series modeling
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="basic-data-mining/index.html">
+            
+                
+                    <a href="../basic-data-mining/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Basic data mining
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="basic-data-mining/using-models.html">
+            
+                
+                    <a href="../basic-data-mining/using-models.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        Using models
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="basic-data-mining/cross-validation.html">
+            
+                
+                    <a href="../basic-data-mining/cross-validation.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        Cross validation
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="basic-graphics/index.html">
+            
+                
+                    <a href="../basic-graphics/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        Basic grahpics
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1" data-path="basic-graphics/basic-plots.html">
+            
+                
+                    <a href="../basic-graphics/basic-plots.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.1.</b>
+                        
+                        Basic plots
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="basic-graphics/composing-plots.html">
+            
+                
+                    <a href="../basic-graphics/composing-plots.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.2.</b>
+                        
+                        Composing plots
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="basic-graphics/partitioning-plots.html">
+            
+                
+                    <a href="../basic-graphics/partitioning-plots.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.3.</b>
+                        
+                        Partitioning plots
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.4" data-path="basic-graphics/graphics-devices.html">
+            
+                
+                    <a href="../basic-graphics/graphics-devices.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.4.</b>
+                        
+                        Graphics devices
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="inside-r/index.html">
+            
+                
+                    <a href="../inside-r/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        Inside R
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.1" data-path="inside-r/lazy-evaluation.html">
+            
+                
+                    <a href="../inside-r/lazy-evaluation.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.1.</b>
+                        
+                        Lazy evaluation
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="inside-r/dot-dot-dot.html">
+            
+                
+                    <a href="../inside-r/dot-dot-dot.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.2.</b>
+                        
+                        dot-dot-dot
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3" data-path="inside-r/environment.html">
+            
+                
+                    <a href="../inside-r/environment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.3.</b>
+                        
+                        Environment
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4" data-path="inside-r/scoping.html">
+            
+                
+                    <a href="../inside-r/scoping.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.4.</b>
+                        
+                        Scoping
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.5" data-path="inside-r/functions.html">
+            
+                
+                    <a href="../inside-r/functions.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.5.</b>
+                        
+                        Functions
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.6" data-path="inside-r/expression.html">
+            
+                
+                    <a href="../inside-r/expression.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.6.</b>
+                        
+                        Expression
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.7" data-path="inside-r/memory-management.html">
+            
+                
+                    <a href="../inside-r/memory-management.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.7.</b>
+                        
+                        Memory management
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="functional-programming/index.html">
+            
+                
+                    <a href="../functional-programming/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        Functional programming
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="10.1" data-path="functional-programming/anonymous-functions.html">
+            
+                
+                    <a href="../functional-programming/anonymous-functions.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.1.</b>
+                        
+                        Anonymous functions
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="functional-programming/closures.html">
+            
+                
+                    <a href="../functional-programming/closures.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.2.</b>
+                        
+                        Closures
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="functional-programming/higher-order-functions.html">
+            
+                
+                    <a href="../functional-programming/higher-order-functions.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.3.</b>
+                        
+                        Higher-order functions
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="data-structures/index.html">
+            
+                
+                    <a href="../data-structures/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        Data structures
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="11.1" data-path="data-structures/s3-object.html">
+            
+                
+                    <a href="../data-structures/s3-object.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.1.</b>
+                        
+                        S3 object
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="data-structures/s4-object.html">
+            
+                
+                    <a href="../data-structures/s4-object.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.2.</b>
+                        
+                        S4 object
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="12" data-path="database/index.html">
+            
+                
+                    <a href="../database/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                        Database
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="12.1" data-path="database/sql.html">
+            
+                
+                    <a href="../database/sql.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.1.</b>
+                        
+                        SQL
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12.2" data-path="database/excel-workbook.html">
+            
+                
+                    <a href="../database/excel-workbook.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.2.</b>
+                        
+                        Excel workbook
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12.3" data-path="database/sqlite.html">
+            
+                
+                    <a href="../database/sqlite.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.3.</b>
+                        
+                        SQLite
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12.4" data-path="database/sql-on-data-frame.html">
+            
+                
+                    <a href="../database/sql-on-data-frame.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.4.</b>
+                        
+                        SQL on data frame
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="13" data-path="parallel-computing/index.html">
+            
+                
+                    <a href="../parallel-computing/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        Parallel computing
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="13.1" data-path="parallel-computing/parallel.html">
+            
+                
+                    <a href="../parallel-computing/parallel.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.1.</b>
+                        
+                        parallel package
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="13.2" data-path="parallel-computing/foreach.html">
+            
+                
+                    <a href="../parallel-computing/foreach.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.2.</b>
+                        
+                        foreach package
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="14" data-path="profiling/index.html">
+            
+                
+                    <a href="../profiling/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.</b>
+                        
+                        Profiling
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="14.1" data-path="profiling/computing-time.html">
+            
+                
+                    <a href="../profiling/computing-time.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.1.</b>
+                        
+                        Computing time
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="14.2" data-path="profiling/memory-usage.html">
+            
+                
+                    <a href="../profiling/memory-usage.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.2.</b>
+                        
+                        Memory usage
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="15" data-path="advanced-graphics/index.html">
+            
+                
+                    <a href="../advanced-graphics/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.</b>
+                        
+                        Advanced graphics
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="15.1" data-path="advanced-graphics/interactive-graphics.html">
+            
+                
+                    <a href="../advanced-graphics/interactive-graphics.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.1.</b>
+                        
+                        Interative graphics
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="15.2" data-path="advanced-graphics/ggplot2.html">
+            
+                
+                    <a href="../advanced-graphics/ggplot2.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.2.</b>
+                        
+                        ggplot2
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="15.3" data-path="advanced-graphics/ggvis.html">
+            
+                
+                    <a href="../advanced-graphics/ggvis.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.3.</b>
+                        
+                        ggvis
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="16" data-path="packages/index.html">
+            
+                
+                    <a href="../packages/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.</b>
+                        
+                        Packages
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="16.1" data-path="packages/text-processing.html">
+            
+            <span><b>16.1.</b> Text processing</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16.2" data-path="packages/data-table.html">
+            
+                
+                    <a href="../packages/data-table.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.2.</b>
+                        
+                        Data table
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16.3" data-path="packages/data-transformation.html">
+            
+                
+                    <a href="../packages/data-transformation.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.3.</b>
+                        
+                        Data transformation
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16.4" data-path="packages/web-scraping.html">
+            
+                
+                    <a href="../packages/web-scraping.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.4.</b>
+                        
+                        Web scraping
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16.5" data-path="packages/root-solving.html">
+            
+                
+                    <a href="../packages/root-solving.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.5.</b>
+                        
+                        Root solving
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16.6" data-path="packages/optimization.html">
+            
+                
+                    <a href="../packages/optimization.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.6.</b>
+                        
+                        Optimization
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16.7" data-path="packages/rcpp.html">
+            
+                
+                    <a href="../packages/rcpp.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.7.</b>
+                        
+                        Rcpp
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">Published with GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Share on Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Share on Google</button>
+                <button type="button" data-sharing="facebook" class="button">Share on Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Share on Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Share on Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >learnR</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="statistical-functions">Statistical functions</h1>
+<p>As a statistical computing environment, R provides a variety of easy-to-use statistical functions from random sampling to statistical tests. Although these built-in functions are limited, they are sufficient to handle many basic statistical problems.</p>
+<h2 id="random-sampling">Random sampling</h2>
+<p>Random sampling is perhaps the first step of answering most statisitical questions on a population. Given a vector or a list, <code>sample()</code> function draws a sample from it with or without replacement.</p>
+<p>For example, draw a sample of size 2 from a numeric vector without replacement.</p>
+<pre><code class="lang-r">sample(c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>),size=<span class="hljs-number">2</span>,replace=<span class="hljs-literal">FALSE</span>)
+</code></pre>
+<pre><code>[1] 1 3
+</code></pre><p>Another example, draw a sample of size 10 from a character vector with replacement.</p>
+<pre><code class="lang-r">sample(c(<span class="hljs-string">&quot;a&quot;</span>,<span class="hljs-string">&quot;b&quot;</span>,<span class="hljs-string">&quot;z&quot;</span>),size=<span class="hljs-number">10</span>,replace=<span class="hljs-literal">TRUE</span>)
+</code></pre>
+<pre><code> [1] &quot;b&quot; &quot;a&quot; &quot;b&quot; &quot;b&quot; &quot;z&quot; &quot;b&quot; &quot;b&quot; &quot;a&quot; &quot;b&quot; &quot;z&quot;
+</code></pre><p><code>sample()</code> also supports unequal weights over each observation while sampling.</p>
+<pre><code class="lang-r">sample(c(<span class="hljs-string">&quot;Good&quot;</span>,<span class="hljs-string">&quot;Medium&quot;</span>,<span class="hljs-string">&quot;Poor&quot;</span>),size=<span class="hljs-number">10</span>,replace=<span class="hljs-literal">TRUE</span>,prob=c(<span class="hljs-number">0.1</span>,<span class="hljs-number">0.8</span>,<span class="hljs-number">0.1</span>))
+</code></pre>
+<pre><code> [1] &quot;Medium&quot; &quot;Medium&quot; &quot;Medium&quot; &quot;Medium&quot; &quot;Medium&quot; &quot;Medium&quot; &quot;Medium&quot;
+ [8] &quot;Medium&quot; &quot;Medium&quot; &quot;Medium&quot;
+</code></pre><h2 id="sampling-from-distributions">Sampling from distributions</h2>
+<p>Instead of drawing samples from a given vector or list, R also provides a set of functions to draw random samples from popular probability distributions.</p>
+<h3 id="uniform-distribution">Uniform distribution</h3>
+<p>Uniform distribution is the simplest random distribution. Under uniform distribution, it is equally probable to draw any value out of a given range. To produce such a random sample, we can call</p>
+<pre><code class="lang-r">runif(<span class="hljs-number">10</span>)
+</code></pre>
+<pre><code> [1] 0.5383487 0.7489722 0.4201015 0.1714202 0.7703016 0.8819536 0.5490967
+ [8] 0.2777238 0.4883060 0.9285051
+</code></pre><p>A random sample of size 10, represented by a numeric vector, is drawn from the uniform distribution with range <span class="katex"><span class="katex-inner"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mopen">[</span><span class="mord">0</span><span class="mpunct">,</span><span class="mord">1</span><span class="mclose">]</span></span></span></span>. To customize the range, we can specify <code>min=</code> and <code>max=</code> arguments</p>
+<pre><code class="lang-r">runif(<span class="hljs-number">10</span>,min = -<span class="hljs-number">5</span>,max = <span class="hljs-number">5</span>)
+</code></pre>
+<pre><code> [1] -1.513080  4.541577  1.952741  3.894535 -3.195928  1.293909  4.895641
+ [8] -3.697111 -1.693395  3.651205
+</code></pre><p>so that another sample uniformly distributed within <span class="katex"><span class="katex-inner"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mopen">[</span><span class="mord">&#x2212;</span><span class="mord">5</span><span class="mpunct">,</span><span class="mord">5</span><span class="mclose">]</span></span></span></span> is drawn.</p>
+<p>In addition to a simple random number generator, some relavent functions are also provided, including the probability density function <code>dunif()</code>, the cumulative density function <code>punif()</code>, and quantile function <code>qunif()</code>.</p>
+<p><img src="figure/unif-1.png" alt="plot of chunk unif"> </p>
+<h3 id="normal-distribution">Normal distribution</h3>
+<p>Maybe the most commonly seen random distribution in real world is the normal distribution. The way to draw normally distributed samples is almost the same with sampling from a uniform distribution. The names of the functions follow the same rules so that we don&apos;t have to remember too much.</p>
+<p>For example, generate a sample of size 10 from standard normal distribution, that is, with zero mean and unit variance.</p>
+<pre><code class="lang-r">rnorm(<span class="hljs-number">10</span>)
+</code></pre>
+<pre><code> [1]  0.99794902  0.80106668  0.82010478 -0.09279376 -0.31225186
+ [6]  1.93903077 -0.68048408 -0.04907921  0.12000937 -1.30858879
+</code></pre><p>To draw sample from non-standard distribution, we only have to specify the two parameters <code>mean=</code> for mean and <code>sd=</code> for standard deviation.</p>
+<pre><code class="lang-r">rnorm(<span class="hljs-number">10</span>,mean = <span class="hljs-number">10</span>,sd = <span class="hljs-number">5</span>)
+</code></pre>
+<pre><code> [1] 12.9627751  4.7980781  4.0237080  0.8228835 10.4808267 10.9532740
+ [7] 11.8074106 14.6699850  5.7354125  8.0848444
+</code></pre><p>In addition to the random number generator for normal distribution, R also provides with its probability density function <code>dnorm()</code>, cumulative density function <code>pnorm()</code>, and quantile function <code>qnorm()</code>.</p>
+<p><img src="figure/norm-1.png" alt="plot of chunk norm"> </p>
+<p>Here it is obvious that R defines 4 functions for each distribution it supports.</p>
+<h3 id="table-of-supported-distributions">Table of supported distributions</h3>
+<p>The following list contains all built-in distributions and their corresponding random number generating function.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Distribution</th>
+<th>Random number generator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Beta_distribution">Beta distribution</a></td>
+<td><code>rbeta(n = , shape1 = , shape2 = , ncp = 0)</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Binomial_distribution">Binomial distribution</a></td>
+<td><code>rbinom(n = , size = , prob = )</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Cauchy_distribution">Cauchy distribution</a></td>
+<td><code>rcauchy(n = , location = 0, scale = 1)</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Chi-squared_distribution">Chi-squared distribution</a></td>
+<td><code>rchisq(n = , df = , ncp = 0)</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Exponential_distribution">Exponential distribution</a></td>
+<td><code>rexp(n = , rate = 1)</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/F-distribution">F distribution</a></td>
+<td><code>df(x = , df1 = , df2 = , ncp = , log = FALSE)</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Gamma_distribution">Gamma distribution</a></td>
+<td><code>rgamma(n = , shape = , rate = 1, scale = 1/rate)</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Geometric_distribution">Geometric distribution</a></td>
+<td><code>rgeom(n = , prob = )</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Hypergeometric_distribution">Hypergeometric distribution</a></td>
+<td><code>rhyper(nn = , m = , n = , k = )</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Log-normal_distribution">Log-normal distribution</a></td>
+<td><code>rlnorm(n = , meanlog = 0, sdlog = 1)</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Multinomial_distribution">Multinomial distribution</a></td>
+<td><code>rmultinom(n = , size = , prob = )</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Negative_binomial_distribution">Negative binomial distribution</a></td>
+<td><code>rnbinom(n = , size = , prob = , mu = )</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Normal_distribution">Normal distribution</a></td>
+<td><code>rnorm(n = , mean = 0, sd = 1)</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Poisson_distribution">Poisson distribution</a></td>
+<td><code>rpois(n = , lambda = )</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Student&apos;s_t-distribution">Student&apos;s <span class="katex"><span class="katex-inner"><span class="strut" style="height:0.61508em;"></span><span class="strut bottom" style="height:0.61508em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">t</span></span></span></span> distribution</a></td>
+<td><code>rt(n = , df = , ncp = )</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Uniform_distribution_%28continuous%29">Uniform distribution</a></td>
+<td><code>runif(n = , min = 0, max = 1)</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="en.wikipedia.org/wiki/Weibull_distribution">Weibull distribution</a></td>
+<td><code>rweibull(n = , shape = , scale = 1)</code></td>
+</tr>
+</tbody>
+</table>
+<p>The density functions, probability functions, and quantile functions for the above distributions can be easily figured out by following the naming conventions that <code>rxxx</code> stands for random numeric generator, <code>dxxx</code> for density function, <code>pxxx</code> for probability function, and <code>qxxx</code> for quantile function.</p>
+<h2 id="summary-statistics">Summary statistics</h2>
+<p>Random distributions are tools to describe the features of random variables. Summary statistics are sometimes of our central interest and informative enough for making descisions.</p>
+<p>A few functions calculate specific summary statistics for a given sample. The following table summarizes these functions.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Statistic</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Mean</td>
+<td><code>mean(x = , ... = )</code></td>
+</tr>
+<tr>
+<td style="text-align:center">Standard deviation</td>
+<td><code>sd(x = , na.rm = FALSE)</code></td>
+</tr>
+<tr>
+<td style="text-align:center">Variance</td>
+<td><code>var(x = , y = NULL, na.rm = FALSE, use = )</code></td>
+</tr>
+<tr>
+<td style="text-align:center">Corvariance</td>
+<td><code>cov(x = , y = NULL, use = &quot;everything&quot;, method = c(&quot;pearson&quot;, ,     &quot;kendall&quot;, &quot;spearman&quot;))</code></td>
+</tr>
+<tr>
+<td style="text-align:center">Correlation</td>
+<td><code>cor(x = , y = NULL, use = &quot;everything&quot;, method = c(&quot;pearson&quot;, ,     &quot;kendall&quot;, &quot;spearman&quot;))</code></td>
+</tr>
+<tr>
+<td style="text-align:center">Median</td>
+<td><code>median(x = , na.rm = FALSE)</code></td>
+</tr>
+<tr>
+<td style="text-align:center">Quantile</td>
+<td><code>quantile(x = , ... = )</code></td>
+</tr>
+<tr>
+<td style="text-align:center">Maximum</td>
+<td><code>max()</code></td>
+</tr>
+<tr>
+<td style="text-align:center">Minimum</td>
+<td><code>min()</code></td>
+</tr>
+<tr>
+<td style="text-align:center">Range</td>
+<td><code>range()</code></td>
+</tr>
+</tbody>
+</table>
+<p>The following examples show how these functions can be used. First we generate a random numeric vector of length 30 from standard normal distribution.</p>
+<pre><code class="lang-r">x &lt;- rnorm(<span class="hljs-number">30</span>)
+x
+</code></pre>
+<pre><code> [1] -0.90035066 -0.45992252  2.46985327  0.07654286  1.58312121
+ [6] -0.06608715 -1.65127263  1.55845790  0.88590800  1.70313588
+[11]  1.93925519 -0.63345737 -0.63624338 -1.47024681  0.52223872
+[16]  0.81135400 -0.93122568 -0.96534549 -0.80879575 -2.70799853
+[21] -0.55794839  1.94983117 -0.22325966  1.60173266 -1.25742475
+[26] -2.05238757  0.13731471  0.79804935 -0.59605865 -1.45335455
+</code></pre><p>To see the summary statistics for such a sample, we can call the functions in the table. We can calculate its mean, standard deviation, and median.</p>
+<pre><code class="lang-r">c(mean=mean(x),sd=sd(x),median=median(x))
+</code></pre>
+<pre><code>       mean          sd      median 
+-0.04448615  1.33276476 -0.34159109
+</code></pre><p>We can compute its quantiles. <code>quantile()</code> by default calculates the 0%, 25%, 50%, 75%, and 100% quantiles.</p>
+<pre><code class="lang-r">quantile(x)
+</code></pre>
+<pre><code>        0%        25%        50%        75%       100% 
+-2.7079985 -0.9235069 -0.3415911  0.8672695  2.4698533
+</code></pre><p>To customize the quantiles, specify <code>probs=</code> argument.</p>
+<pre><code class="lang-r">quantile(x,probs = c(<span class="hljs-number">0.5</span>,<span class="hljs-number">0.8</span>))
+</code></pre>
+<pre><code>       50%        80% 
+-0.3415911  1.5633906
+</code></pre><p>We can call <code>min()</code> and <code>max()</code> to see its smallest and largest values, respectively. <code>range()</code> returns both of them together in a numeric vector.</p>
+<pre><code class="lang-r">c(min=min(x),max=max(x))
+</code></pre>
+<pre><code>      min       max 
+-2.707999  2.469853
+</code></pre><pre><code class="lang-r">range(x)
+</code></pre>
+<pre><code>[1] -2.707999  2.469853
+</code></pre><p>In addition, <code>pmin()</code> and <code>pmax()</code> are used to work element-wisely for all vectors.</p>
+<pre><code class="lang-r">pmax(c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>),c(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">1</span>))
+</code></pre>
+<pre><code>[1] 2 3 3
+</code></pre><pre><code class="lang-r">pmin(c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>),c(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">1</span>),c(<span class="hljs-number">3</span>,<span class="hljs-number">2</span>,<span class="hljs-number">1</span>))
+</code></pre>
+<pre><code>[1] 1 2 1
+</code></pre><p>Also a function named <code>summary()</code> can be used to directly show all important location summary statistics.</p>
+<pre><code class="lang-r">summary(x)
+</code></pre>
+<pre><code>    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+-2.70800 -0.92350 -0.34160 -0.04449  0.86730  2.47000
+</code></pre><p>In fact, this function is a generic function that works for many types of objects and has different behaviors. It is very useful in data analysis. We will cover it in detail later.</p>
+<h2 id="statistical-tests">Statistical tests</h2>
+<p>A large part of statistics is about drawing samples from a population, and making inference of population features by inspecting these samples. To answer questions like <em>Is the average score of this group higher than that of the other group?</em> statistical tests often play important roles.</p>
+<p>Statistical tests allow us to answer these kinds of questions in statistical sense when we only have partial information. They also tell us at the same time to what extent we should feel confident about the conclusion.</p>
+<p>A number of functions are designed to conduct one specific or a family of statistical tests.</p>
+<p>For example, suppose we have two samples of exam scores for Class A and Class B. If the assumption is considered reasonable that scores of the students in both classes follow normal distribution respectively, we can use t-test to see whether the two classes truly have a difference in average score.</p>
+<pre><code class="lang-r">classA &lt;- c(<span class="hljs-number">9</span>,<span class="hljs-number">9</span>,<span class="hljs-number">8</span>,<span class="hljs-number">10</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7</span>,<span class="hljs-number">9</span>,<span class="hljs-number">6</span>,<span class="hljs-number">9</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">8</span>,<span class="hljs-number">7</span>,<span class="hljs-number">8</span>)
+classB &lt;- c(<span class="hljs-number">10</span>,<span class="hljs-number">7</span>,<span class="hljs-number">7</span>,<span class="hljs-number">9</span>,<span class="hljs-number">8</span>,<span class="hljs-number">10</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>,<span class="hljs-number">9</span>,<span class="hljs-number">8</span>,<span class="hljs-number">7</span>,<span class="hljs-number">10</span>,<span class="hljs-number">9</span>,<span class="hljs-number">9</span>,<span class="hljs-number">8</span>,<span class="hljs-number">7</span>)
+t.test(classA,classB)
+</code></pre>
+<pre><code>
+    Welch Two Sample t-test
+
+data:  classA and classB
+t = -0.3302, df = 24.708, p-value = 0.744
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1.0991073  0.7955359
+sample estimates:
+mean of x mean of y 
+ 8.285714  8.437500
+</code></pre><p>The t-test suggests that we cannot reject the null hypothesis that the true difference between the two groups equal to 0 with quite a big confidence. It does not say that the true difference equals zero but that there&apos;s no much evidence to support a significant non-zero difference.</p>
+<p>Suppose we get more observations of scores for each class and we redo the t-test,</p>
+<pre><code class="lang-r">classA &lt;- c(<span class="hljs-number">9</span>,<span class="hljs-number">9</span>,<span class="hljs-number">8</span>,<span class="hljs-number">10</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7</span>,<span class="hljs-number">9</span>,<span class="hljs-number">6</span>,<span class="hljs-number">9</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">8</span>,<span class="hljs-number">7</span>,<span class="hljs-number">8</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">9</span>,<span class="hljs-number">9</span>,<span class="hljs-number">10</span>,<span class="hljs-number">8</span>,<span class="hljs-number">10</span>)
+classB &lt;- c(<span class="hljs-number">10</span>,<span class="hljs-number">7</span>,<span class="hljs-number">7</span>,<span class="hljs-number">9</span>,<span class="hljs-number">8</span>,<span class="hljs-number">10</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>,<span class="hljs-number">9</span>,<span class="hljs-number">8</span>,<span class="hljs-number">7</span>,<span class="hljs-number">10</span>,<span class="hljs-number">9</span>,<span class="hljs-number">9</span>,<span class="hljs-number">8</span>,<span class="hljs-number">7</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7</span>,<span class="hljs-number">6</span>,<span class="hljs-number">6</span>,<span class="hljs-number">9</span>,<span class="hljs-number">6</span>,<span class="hljs-number">5</span>,<span class="hljs-number">7</span>,<span class="hljs-number">6</span>)
+t.test(classA,classB)
+</code></pre>
+<pre><code>
+    Welch Two Sample t-test
+
+data:  classA and classB
+t = 2.3123, df = 43.746, p-value = 0.02553
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.121445 1.771888
+sample estimates:
+mean of x mean of y 
+ 8.666667  7.720000
+</code></pre><p>we find that the <span class="katex"><span class="katex-inner"><span class="strut" style="height:0.61508em;"></span><span class="strut bottom" style="height:0.61508em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">t</span></span></span></span>-statistic gets much larger and <span class="katex"><span class="katex-inner"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit">p</span></span></span></span>-value much smaller, which is a strong sign of significant difference between the average scores of the two classes. This time, we have much more confidence to reject the null hypothesis and claim that the two classes probably have different average scores.</p>
+<p>This is merely an example of location difference test carried out in a very rough way. R provides much wider range of statisitcal tests than this. We will cover them in later chapters.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../basic-functions/math.html" class="navigation navigation-prev " aria-label="Previous page: Math"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../basic-functions/data.html" class="navigation navigation-next " aria-label="Next page: Data"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-ga/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"ga":{"token":"UA-47159422-1","configuration":"auto"}};
+    gitbook.start(config);
+});
+</script>
+
+        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-47159422-1', 'auto');ga('send', 'pageview');</script>
+    </body>
+    
+</html>

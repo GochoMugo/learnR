@@ -1,0 +1,1783 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+        <title>Vector | learnR</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.0.0">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <link rel="next" href="../basic-objects/matrix.html" />
+    
+    
+    <link rel="prev" href="../basic-objects/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-katex/katex.min.css">
+        
+    
+    
+
+        
+    <div class="book" data-level="3.1" data-basepath=".." data-revision="Sun Mar 29 2015 10:14:02 GMT+0800 (China Standard Time)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="acknowledgment.html">
+            
+                
+                    <a href="../acknowledgment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Acknowledgment
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="quick-start/index.html">
+            
+                
+                    <a href="../quick-start/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Quick start
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="quick-start/what-is-r.html">
+            
+                
+                    <a href="../quick-start/what-is-r.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        What is R
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="quick-start/why-r.html">
+            
+                
+                    <a href="../quick-start/why-r.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Why R
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="quick-start/install-r.html">
+            
+                
+                    <a href="../quick-start/install-r.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Install R
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="quick-start/rstudio.html">
+            
+                
+                    <a href="../quick-start/rstudio.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        RStudio
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="quick-start/first-model.html">
+            
+                
+                    <a href="../quick-start/first-model.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        First model
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="basic-objects/index.html">
+            
+                
+                    <a href="../basic-objects/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Basic objects
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="3.1" data-path="basic-objects/vector.html">
+            
+                
+                    <a href="../basic-objects/vector.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Vector
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="basic-objects/matrix.html">
+            
+                
+                    <a href="../basic-objects/matrix.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Matrix
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="basic-objects/array.html">
+            
+                
+                    <a href="../basic-objects/array.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Array
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="basic-objects/list.html">
+            
+                
+                    <a href="../basic-objects/list.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        List
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="basic-objects/data-frame.html">
+            
+                
+                    <a href="../basic-objects/data-frame.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        Data frame
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="basic-objects/function.html">
+            
+                
+                    <a href="../basic-objects/function.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        Function
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="basic-objects/formula.html">
+            
+                
+                    <a href="../basic-objects/formula.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.</b>
+                        
+                        Formula
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="basic-expressions/index.html">
+            
+                
+                    <a href="../basic-expressions/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Basic expressions
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="basic-expressions/assignment.html">
+            
+                
+                    <a href="../basic-expressions/assignment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Assignment
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="basic-expressions/condition.html">
+            
+                
+                    <a href="../basic-expressions/condition.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Condition
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="basic-expressions/loop.html">
+            
+                
+                    <a href="../basic-expressions/loop.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        Loop
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="basic-functions/index.html">
+            
+                
+                    <a href="../basic-functions/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Basic functions
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="basic-functions/environment.html">
+            
+                
+                    <a href="../basic-functions/environment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        Environment
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="basic-functions/package.html">
+            
+                
+                    <a href="../basic-functions/package.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        Package
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="basic-functions/object.html">
+            
+                
+                    <a href="../basic-functions/object.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        Object
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="basic-functions/logical.html">
+            
+                
+                    <a href="../basic-functions/logical.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                        Logical
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="basic-functions/character.html">
+            
+                
+                    <a href="../basic-functions/character.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.5.</b>
+                        
+                        Character
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="basic-functions/math.html">
+            
+                
+                    <a href="../basic-functions/math.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.</b>
+                        
+                        Math
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="basic-functions/statistics.html">
+            
+                
+                    <a href="../basic-functions/statistics.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.</b>
+                        
+                        Statistics
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="basic-functions/data.html">
+            
+                
+                    <a href="../basic-functions/data.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.</b>
+                        
+                        Data
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="basic-functions/graphics.html">
+            
+                
+                    <a href="../basic-functions/graphics.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.9.</b>
+                        
+                        Graphics
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.10" data-path="basic-functions/apply-family.html">
+            
+                
+                    <a href="../basic-functions/apply-family.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.10.</b>
+                        
+                        Apply-family
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="basic-statistics/index.html">
+            
+                
+                    <a href="../basic-statistics/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Basic statistics
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="basic-statistics/preparing-data.html">
+            
+                
+                    <a href="../basic-statistics/preparing-data.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        Preparing data
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="basic-statistics/descriptive-statistics.html">
+            
+                
+                    <a href="../basic-statistics/descriptive-statistics.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        Descriptive statistics
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="basic-statistics/linear-regression.html">
+            
+                
+                    <a href="../basic-statistics/linear-regression.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        Linear regression
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="basic-statistics/hypothesis-testing.html">
+            
+                
+                    <a href="../basic-statistics/hypothesis-testing.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.4.</b>
+                        
+                        Hypothesis testing
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="basic-statistics/model-analysis.html">
+            
+                
+                    <a href="../basic-statistics/model-analysis.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.5.</b>
+                        
+                        Model analysis
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="basic-statistics/time-series-modeling.html">
+            
+                
+                    <a href="../basic-statistics/time-series-modeling.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.6.</b>
+                        
+                        Time series modeling
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="basic-data-mining/index.html">
+            
+                
+                    <a href="../basic-data-mining/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Basic data mining
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="basic-data-mining/using-models.html">
+            
+                
+                    <a href="../basic-data-mining/using-models.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        Using models
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="basic-data-mining/cross-validation.html">
+            
+                
+                    <a href="../basic-data-mining/cross-validation.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        Cross validation
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="basic-graphics/index.html">
+            
+                
+                    <a href="../basic-graphics/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        Basic grahpics
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1" data-path="basic-graphics/basic-plots.html">
+            
+                
+                    <a href="../basic-graphics/basic-plots.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.1.</b>
+                        
+                        Basic plots
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="basic-graphics/composing-plots.html">
+            
+                
+                    <a href="../basic-graphics/composing-plots.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.2.</b>
+                        
+                        Composing plots
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="basic-graphics/partitioning-plots.html">
+            
+                
+                    <a href="../basic-graphics/partitioning-plots.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.3.</b>
+                        
+                        Partitioning plots
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.4" data-path="basic-graphics/graphics-devices.html">
+            
+                
+                    <a href="../basic-graphics/graphics-devices.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.4.</b>
+                        
+                        Graphics devices
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="inside-r/index.html">
+            
+                
+                    <a href="../inside-r/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        Inside R
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.1" data-path="inside-r/lazy-evaluation.html">
+            
+                
+                    <a href="../inside-r/lazy-evaluation.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.1.</b>
+                        
+                        Lazy evaluation
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="inside-r/dot-dot-dot.html">
+            
+                
+                    <a href="../inside-r/dot-dot-dot.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.2.</b>
+                        
+                        dot-dot-dot
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3" data-path="inside-r/environment.html">
+            
+                
+                    <a href="../inside-r/environment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.3.</b>
+                        
+                        Environment
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4" data-path="inside-r/scoping.html">
+            
+                
+                    <a href="../inside-r/scoping.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.4.</b>
+                        
+                        Scoping
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.5" data-path="inside-r/functions.html">
+            
+                
+                    <a href="../inside-r/functions.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.5.</b>
+                        
+                        Functions
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.6" data-path="inside-r/expression.html">
+            
+                
+                    <a href="../inside-r/expression.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.6.</b>
+                        
+                        Expression
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.7" data-path="inside-r/memory-management.html">
+            
+                
+                    <a href="../inside-r/memory-management.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.7.</b>
+                        
+                        Memory management
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="functional-programming/index.html">
+            
+                
+                    <a href="../functional-programming/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        Functional programming
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="10.1" data-path="functional-programming/anonymous-functions.html">
+            
+                
+                    <a href="../functional-programming/anonymous-functions.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.1.</b>
+                        
+                        Anonymous functions
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="functional-programming/closures.html">
+            
+                
+                    <a href="../functional-programming/closures.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.2.</b>
+                        
+                        Closures
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="functional-programming/higher-order-functions.html">
+            
+                
+                    <a href="../functional-programming/higher-order-functions.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.3.</b>
+                        
+                        Higher-order functions
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="data-structures/index.html">
+            
+                
+                    <a href="../data-structures/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        Data structures
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="11.1" data-path="data-structures/s3-object.html">
+            
+                
+                    <a href="../data-structures/s3-object.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.1.</b>
+                        
+                        S3 object
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="data-structures/s4-object.html">
+            
+                
+                    <a href="../data-structures/s4-object.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.2.</b>
+                        
+                        S4 object
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="12" data-path="database/index.html">
+            
+                
+                    <a href="../database/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                        Database
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="12.1" data-path="database/sql.html">
+            
+                
+                    <a href="../database/sql.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.1.</b>
+                        
+                        SQL
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12.2" data-path="database/excel-workbook.html">
+            
+                
+                    <a href="../database/excel-workbook.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.2.</b>
+                        
+                        Excel workbook
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12.3" data-path="database/sqlite.html">
+            
+                
+                    <a href="../database/sqlite.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.3.</b>
+                        
+                        SQLite
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12.4" data-path="database/sql-on-data-frame.html">
+            
+                
+                    <a href="../database/sql-on-data-frame.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.4.</b>
+                        
+                        SQL on data frame
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="13" data-path="parallel-computing/index.html">
+            
+                
+                    <a href="../parallel-computing/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        Parallel computing
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="13.1" data-path="parallel-computing/parallel.html">
+            
+                
+                    <a href="../parallel-computing/parallel.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.1.</b>
+                        
+                        parallel package
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="13.2" data-path="parallel-computing/foreach.html">
+            
+                
+                    <a href="../parallel-computing/foreach.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.2.</b>
+                        
+                        foreach package
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="14" data-path="profiling/index.html">
+            
+                
+                    <a href="../profiling/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.</b>
+                        
+                        Profiling
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="14.1" data-path="profiling/computing-time.html">
+            
+                
+                    <a href="../profiling/computing-time.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.1.</b>
+                        
+                        Computing time
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="14.2" data-path="profiling/memory-usage.html">
+            
+                
+                    <a href="../profiling/memory-usage.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.2.</b>
+                        
+                        Memory usage
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="15" data-path="advanced-graphics/index.html">
+            
+                
+                    <a href="../advanced-graphics/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.</b>
+                        
+                        Advanced graphics
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="15.1" data-path="advanced-graphics/interactive-graphics.html">
+            
+                
+                    <a href="../advanced-graphics/interactive-graphics.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.1.</b>
+                        
+                        Interative graphics
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="15.2" data-path="advanced-graphics/ggplot2.html">
+            
+                
+                    <a href="../advanced-graphics/ggplot2.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.2.</b>
+                        
+                        ggplot2
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="15.3" data-path="advanced-graphics/ggvis.html">
+            
+                
+                    <a href="../advanced-graphics/ggvis.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.3.</b>
+                        
+                        ggvis
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="16" data-path="packages/index.html">
+            
+                
+                    <a href="../packages/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.</b>
+                        
+                        Packages
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="16.1" data-path="packages/text-processing.html">
+            
+            <span><b>16.1.</b> Text processing</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16.2" data-path="packages/data-table.html">
+            
+                
+                    <a href="../packages/data-table.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.2.</b>
+                        
+                        Data table
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16.3" data-path="packages/data-transformation.html">
+            
+                
+                    <a href="../packages/data-transformation.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.3.</b>
+                        
+                        Data transformation
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16.4" data-path="packages/web-scraping.html">
+            
+                
+                    <a href="../packages/web-scraping.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.4.</b>
+                        
+                        Web scraping
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16.5" data-path="packages/root-solving.html">
+            
+                
+                    <a href="../packages/root-solving.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.5.</b>
+                        
+                        Root solving
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16.6" data-path="packages/optimization.html">
+            
+                
+                    <a href="../packages/optimization.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.6.</b>
+                        
+                        Optimization
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16.7" data-path="packages/rcpp.html">
+            
+                
+                    <a href="../packages/rcpp.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.7.</b>
+                        
+                        Rcpp
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">Published with GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Share on Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Share on Google</button>
+                <button type="button" data-sharing="facebook" class="button">Share on Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Share on Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Share on Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >learnR</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="vector">Vector</h1>
+<p>A vector is a group of primitive values of the same type. It can be a group of numbers, true/false values, texts, and values of some other type. It is one of the building blocks of all R objects. </p>
+<p>There are several types of vectors in R. They distinct from each other in the type of entries they hold. Here we will see the most commonly used types of vectors including numeric vector, logical vector, character vector, and so on.</p>
+<h2 id="numeric-vector">Numeric vector</h2>
+<p>There are multiple ways to define a numeric vector.</p>
+<p>A scalar number is the simplest numeric vector. It&apos;s special only because its length is one.</p>
+<pre><code class="lang-r">&gt; <span class="hljs-number">1.5</span>
+</code></pre>
+<pre><code>[1] 1.5
+</code></pre><p>To assign this value to a symbol, we can use <code>&lt;-</code>.</p>
+<pre><code class="lang-r">&gt; x &lt;- <span class="hljs-number">1.5</span>
+</code></pre>
+<p>Then the value is assigned to symbol <code>x</code> and we can use <code>x</code> to represent the value in later expressions.</p>
+<pre><code class="lang-r">&gt; x
+</code></pre>
+<pre><code>[1] 1.5
+</code></pre><p>We can call <code>numeric</code> function to create a zero numeric vector of a specific length.</p>
+<pre><code class="lang-r">&gt; numeric(<span class="hljs-number">10</span>)
+</code></pre>
+<pre><code> [1] 0 0 0 0 0 0 0 0 0 0
+</code></pre><p>We can also use <code>c</code> function to <em>combine</em> several vectors to be one vector.</p>
+<pre><code class="lang-r">&gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>)
+</code></pre>
+<pre><code>[1] 1 2 3 4 5
+</code></pre><p>For example, we can combine several single-entry vectors with a multi-entry vector to obtain the previous vector.</p>
+<pre><code class="lang-r">&gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,c(<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>))
+</code></pre>
+<pre><code>[1] 1 2 3 4 5
+</code></pre><p>To define a series of consecutive numbers with step one, <code>:</code> operator will do the trick.</p>
+<pre><code class="lang-r">&gt; <span class="hljs-number">1</span>:<span class="hljs-number">5</span>
+</code></pre>
+<pre><code>[1] 1 2 3 4 5
+</code></pre><p>A more general way to produce an integer sequence is to use <code>seq</code> function. For example, the following code produces a sequence from 1 to 10 with step 2.</p>
+<pre><code class="lang-r">&gt; seq(<span class="hljs-number">1</span>,<span class="hljs-number">10</span>,<span class="hljs-number">2</span>)
+</code></pre>
+<pre><code>[1] 1 3 5 7 9
+</code></pre><p>A function like <code>seq</code> has many arguments. We can call a function by supplying all the arguments but it is in most cases not necessary. Most functions provide reasonable default values for some arguments, which makes it easier for us to call a function. In this case we only need to specify the argument we would like to modify from its default value.</p>
+<p>For example, we can create another vector that starts from 3 with length 10 by specifying <code>length.out</code> argument.</p>
+<pre><code class="lang-r">&gt; seq(<span class="hljs-number">3</span>,length.out = <span class="hljs-number">10</span>)
+</code></pre>
+<pre><code> [1]  3  4  5  6  7  8  9 10 11 12
+</code></pre><p>A function call like the above uses named argument <code>length.out</code> so that other arguments are kept default and only this argument is modified.</p>
+<p>There are many ways we can define numeric vectors, but we should always be careful when we use <code>:</code> to define a range of numbers.</p>
+<pre><code class="lang-r">&gt; <span class="hljs-number">1</span>+<span class="hljs-number">1</span>:<span class="hljs-number">5</span>
+</code></pre>
+<pre><code>[1] 2 3 4 5 6
+</code></pre><p>As the result shows, <code>1+1:5</code> does not mean a sequence from 2 to 5, but from 2 to 6. It is because <code>:</code> has higher priority than <code>+</code>, which results in evaluating <code>1:5</code> first and adding 1 to each entry, yielding the sequence you see in the result.</p>
+<h2 id="logical-vector">Logical vector</h2>
+<p>In contrast with numeric vectors, a logical vector typically holds a group of <code>TRUE</code> or <code>FALSE</code> values. They are basically <em>yes</em> or <em>no</em> to denote the answers to a group of logical questions.</p>
+<p>The simplest logical vector is <code>TRUE</code> or <code>FALSE</code> itself.</p>
+<pre><code class="lang-r">&gt; <span class="hljs-literal">TRUE</span>
+</code></pre>
+<pre><code>[1] TRUE
+</code></pre><p>A more usual way to obtain a logical vector is to ask logical questions about R objects. For example, we can ask R whether 1 is greater than 2.</p>
+<pre><code class="lang-r">&gt; <span class="hljs-number">1</span> &gt; <span class="hljs-number">2</span>
+</code></pre>
+<pre><code>[1] FALSE
+</code></pre><p>Its answer is correct. If we want to perform multiple comparisons at the same time, we can directly use numeric vectors.</p>
+<pre><code class="lang-r">&gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>) &gt; <span class="hljs-number">2</span>
+</code></pre>
+<pre><code>[1] FALSE FALSE
+</code></pre><p>R interprets this expression as the element-wise comparisons between the two entries.</p>
+<p>Moreover, we can compare two multi-entry numeric vectors as long as the length of the longer vector is a multiple of that of the shorter one.</p>
+<pre><code class="lang-r">&gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>) &gt; c(<span class="hljs-number">2</span>,<span class="hljs-number">1</span>)
+</code></pre>
+<pre><code>[1] FALSE  TRUE
+</code></pre><pre><code class="lang-r">&gt; c(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>) &gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,-<span class="hljs-number">1</span>,<span class="hljs-number">3</span>)
+</code></pre>
+<pre><code>[1]  TRUE  TRUE  TRUE FALSE
+</code></pre><p>The computing mechanism is asking the following questions iteratively: <code>1&gt;2?</code>, <code>2&gt;3?</code>, <code>-1&gt;2?</code>, <code>3&gt;3?</code>. In other words, the shorter vector will rotate to finish all the comparisons for each entry in the longer vector.</p>
+<p>In R, several logical binary operators are defined, such as <code>==</code> to denote <em>equality</em>, <code>&gt;</code> <em>greater-than</em>, <code>&gt;=</code> <em>greater-or-equals-to</em>, <code>&lt;</code> <em>less-than</em>, <code>&lt;=</code> <em>less-than-or-equals-to</em>. Moreover, R provides some other additional logical operators like <code>%in%</code> to tell whether each entry in the left-hand side vector is contained by the right-hand side vector.</p>
+<pre><code class="lang-r">&gt; <span class="hljs-number">1</span> %<span class="hljs-keyword">in</span>% c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>)
+</code></pre>
+<pre><code>[1] TRUE
+</code></pre><pre><code class="lang-r">&gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">4</span>) %<span class="hljs-keyword">in</span>% c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>)
+</code></pre>
+<pre><code>[1]  TRUE FALSE
+</code></pre><h2 id="character-vector">Character vector</h2>
+<p>A character vector is a group of strings. Here a <em>character</em> does not mean literally a single letter or symbol in a language, but means a string like &quot;<em>this is a string</em>&quot;.</p>
+<p>A character vector is a group of strings. Both double-quotation mark and single-quotation mark can be used to define a character vector.</p>
+<pre><code class="lang-r">&gt; <span class="hljs-string">&quot;hello, world!&quot;</span>
+</code></pre>
+<pre><code>[1] &quot;hello, world!&quot;
+</code></pre><pre><code class="lang-r">&gt; <span class="hljs-string">&apos;hello, world!&apos;</span>
+</code></pre>
+<pre><code>[1] &quot;hello, world!&quot;
+</code></pre><p>We can also use combine function <code>c</code> to construct a multi-entry character vector.</p>
+<pre><code class="lang-r">&gt; c(<span class="hljs-string">&quot;Hello&quot;</span>,<span class="hljs-string">&quot;World&quot;</span>)
+</code></pre>
+<pre><code>[1] &quot;Hello&quot; &quot;World&quot;
+</code></pre><p>We can use <code>==</code> to tell whether two vectors have the same values, which applies to character vector too.</p>
+<pre><code class="lang-r">&gt; c(<span class="hljs-string">&quot;Hello&quot;</span>,<span class="hljs-string">&quot;World&quot;</span>) == c(<span class="hljs-string">&apos;Hello&apos;</span>,<span class="hljs-string">&apos;World&apos;</span>)
+</code></pre>
+<pre><code>[1] TRUE TRUE
+</code></pre><p>The character vectors are equal because <code>&quot;</code> and <code>&apos;</code> both work to define a string and do not affect its value.</p>
+<pre><code class="lang-r">&gt; c(<span class="hljs-string">&quot;Hello&quot;</span>,<span class="hljs-string">&quot;World&quot;</span>) == <span class="hljs-string">&quot;Hello, World&quot;</span>
+</code></pre>
+<pre><code>[1] FALSE FALSE
+</code></pre><p>The previous expression yields both <code>FALSE</code> because neither <code>&quot;Hello&quot;</code> nor <code>&quot;World&quot;</code> equals <code>&quot;Hello, World&quot;</code>.</p>
+<h2 id="subsetting-vectors">Subsetting vectors</h2>
+<p>If we want to access some specific entries or a subset of a vector, we are <em>subsetting</em> the vector. Like many other operations, there are many ways to do it.</p>
+<p>First we create a simple vector <code>v1</code>.</p>
+<pre><code class="lang-r">&gt; v1 &lt;- c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>)
+</code></pre>
+<p>Each of the following lines gets a specific subset of <code>v1</code>.</p>
+<p>Get the second entry:</p>
+<pre><code class="lang-r">&gt; v1[<span class="hljs-number">2</span>]
+</code></pre>
+<pre><code>[1] 2
+</code></pre><p>Get the second to fourth entries:</p>
+<pre><code class="lang-r">&gt; v1[<span class="hljs-number">2</span>:<span class="hljs-number">4</span>]
+</code></pre>
+<pre><code>[1] 2 3 4
+</code></pre><p>Get all entries except the third one:</p>
+<pre><code class="lang-r">&gt; v1[-<span class="hljs-number">3</span>]
+</code></pre>
+<pre><code>[1] 1 2 4
+</code></pre><p>The patterns are clear: we can put any numeric vector inside the square brackets after the vector to extract its corresponding subset.</p>
+<pre><code class="lang-r">&gt; a &lt;- c(<span class="hljs-number">1</span>,<span class="hljs-number">3</span>)
+&gt; v1[a]
+</code></pre>
+<pre><code>[1] 1 3
+</code></pre><p>We can also supply a equal-length logical vector to determine whether each entry should be extracted.</p>
+<pre><code class="lang-r">&gt; v1[c(<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">FALSE</span>,<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">FALSE</span>)]
+</code></pre>
+<pre><code>[1] 1 3
+</code></pre><p>More than subsetting, we can overwrite a specific subset of a vector like this:</p>
+<pre><code class="lang-r">&gt; v1[<span class="hljs-number">2</span>] &lt;- <span class="hljs-number">0</span>
+&gt; v1[<span class="hljs-number">2</span>:<span class="hljs-number">4</span>] &lt;- c(<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,<span class="hljs-number">3</span>)
+</code></pre>
+<p>Logical selector also allows overwriting.</p>
+<pre><code class="lang-r">&gt; v1[c(<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">FALSE</span>,<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">FALSE</span>)] &lt;- c(<span class="hljs-number">3</span>,<span class="hljs-number">2</span>)
+</code></pre>
+<p>A useful implication of this operation is selecting entries by logical criterion. For example, this line picks out all entries that are no greater than 2.</p>
+<pre><code class="lang-r">&gt; v1[v1 &lt;= <span class="hljs-number">2</span>]
+</code></pre>
+<pre><code>[1] 0 2
+</code></pre><p>This line picks out all entries that satisfy $x^2-x+1 \ge 0$.</p>
+<pre><code class="lang-r">&gt; v1[v1^<span class="hljs-number">2</span>-v1+<span class="hljs-number">1</span>&gt;=<span class="hljs-number">0</span>]
+</code></pre>
+<pre><code>[1] 3 0 2 3
+</code></pre><p>To replace all entries that satisfy $x \le 2$ with 0, we can call:</p>
+<pre><code class="lang-r">&gt; v1[v1 &lt;= <span class="hljs-number">2</span>] &lt;- <span class="hljs-number">0</span>
+</code></pre>
+<p>If we overwrite the vector at a non-existing entry, the vector will automatically expand with unassigned value kept <code>NA</code> as missing values.</p>
+<pre><code class="lang-r">&gt; v1[<span class="hljs-number">10</span>] &lt;- <span class="hljs-number">8</span>
+&gt; v1
+</code></pre>
+<pre><code> [1]  3  0  0  3 NA NA NA NA NA  8
+</code></pre><h2 id="named-vectors">Named vectors</h2>
+<p>Named vector is not a specific type of vector parallel with numeric or logical vector. It is a vector with names assigned to its entries.</p>
+<pre><code class="lang-r">&gt; x &lt;- c(a=<span class="hljs-number">1</span>,b=<span class="hljs-number">2</span>,c=<span class="hljs-number">3</span>)
+&gt; x
+</code></pre>
+<pre><code>a b c 
+1 2 3
+</code></pre><p>Then we can access its entries with a single-valued character vector.</p>
+<pre><code class="lang-r">&gt; x[<span class="hljs-string">&quot;a&quot;</span>]
+</code></pre>
+<pre><code>a 
+1
+</code></pre><p>Or get multiple entries with a character vector</p>
+<pre><code class="lang-r">&gt; x[c(<span class="hljs-string">&quot;a&quot;</span>,<span class="hljs-string">&quot;c&quot;</span>)]
+</code></pre>
+<pre><code>a c 
+1 3
+</code></pre><p>In addition, all other operations to vector also perfectly work for named vectors.</p>
+<p>We can get the names of a vector with <code>names</code> function.</p>
+<pre><code class="lang-r">&gt; names(x)
+</code></pre>
+<pre><code>[1] &quot;a&quot; &quot;b&quot; &quot;c&quot;
+</code></pre><p>Or we can change the names of a vector by assigning another character vector to its names.</p>
+<pre><code class="lang-r">&gt; names(x) &lt;- c(<span class="hljs-string">&quot;x&quot;</span>,<span class="hljs-string">&quot;y&quot;</span>,<span class="hljs-string">&quot;z&quot;</span>)
+&gt; x[<span class="hljs-string">&quot;z&quot;</span>]
+</code></pre>
+<pre><code>z 
+3
+</code></pre><p>Or we can simply cancel its names by assigning <code>NULL</code>.</p>
+<pre><code class="lang-r">&gt; names(x) &lt;- <span class="hljs-literal">NULL</span>
+&gt; x
+</code></pre>
+<pre><code>[1] 1 2 3
+</code></pre><h2 id="telling-the-type-of-vectors">Telling the type of vectors</h2>
+<p>Sometimes we need to tell the type of a vector before taking an action. <code>class</code> function will tell us the type of any R object.</p>
+<pre><code class="lang-r">&gt; class(c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>))
+</code></pre>
+<pre><code>[1] &quot;numeric&quot;
+</code></pre><pre><code class="lang-r">&gt; class(c(<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">FALSE</span>))
+</code></pre>
+<pre><code>[1] &quot;logical&quot;
+</code></pre><pre><code class="lang-r">&gt; class(c(<span class="hljs-string">&quot;Hello&quot;</span>,<span class="hljs-string">&quot;World&quot;</span>))
+</code></pre>
+<pre><code>[1] &quot;character&quot;
+</code></pre><p>If we need to ensure an object is indeed a specific type of vector, we can use <code>is.numeric</code>, <code>is.logical</code>, <code>is.character</code> and many other similar functions.</p>
+<pre><code class="lang-r">&gt; is.numeric(c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>))
+</code></pre>
+<pre><code>[1] TRUE
+</code></pre><pre><code class="lang-r">&gt; is.numeric(c(<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">FALSE</span>))
+</code></pre>
+<pre><code>[1] FALSE
+</code></pre><pre><code class="lang-r">&gt; is.numeric(c(<span class="hljs-string">&quot;Hello&quot;</span>,<span class="hljs-string">&quot;World&quot;</span>))
+</code></pre>
+<pre><code>[1] FALSE
+</code></pre><h2 id="converting-vectors">Converting vectors</h2>
+<p>Different types of vectors can be coerced to a specific type of vector.</p>
+<pre><code class="lang-r">&gt; as.numeric(c(<span class="hljs-string">&quot;1&quot;</span>,<span class="hljs-string">&quot;2&quot;</span>,<span class="hljs-string">&quot;3&quot;</span>,<span class="hljs-string">&quot;a&quot;</span>))
+</code></pre>
+<pre><code>Warning: NAs introduced by coercion
+</code></pre><pre><code>[1]  1  2  3 NA
+</code></pre><pre><code class="lang-r">&gt; as.logical(c(-<span class="hljs-number">1</span>,<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>))
+</code></pre>
+<pre><code>[1]  TRUE FALSE  TRUE  TRUE
+</code></pre><pre><code class="lang-r">&gt; as.character(c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>))
+</code></pre>
+<pre><code>[1] &quot;1&quot; &quot;2&quot; &quot;3&quot;
+</code></pre><pre><code class="lang-r">&gt; as.character(c(<span class="hljs-literal">TRUE</span>,<span class="hljs-literal">FALSE</span>))
+</code></pre>
+<pre><code>[1] &quot;TRUE&quot;  &quot;FALSE&quot;
+</code></pre><p>The conversion follows a set of rules. </p>
+<p>The first line converts the character vector to a numeric vector. The conversion is done except for the last one so a missing value is produced instead. </p>
+<p>As for converting numeric vector to logical vector, the rule is that only 0 corresponds to <code>FALSE</code> and all non-zero numbers will produce <code>TRUE</code>.</p>
+<p>Each kind of vector can be converted to character vector since everything has a character representation. However, if a numeric vector or a logical vector is coerced to character vector, it cannot be directly involved in the arithmetic operations with other numeric or logical vectors unless it is converted back. That is why the following code does not work.</p>
+<pre><code class="lang-r">&gt; as.character(c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>)) + c(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>)
+</code></pre>
+<pre><code>Error in as.character(c(1, 2)) + c(2, 3): non-numeric argument to binary operator
+</code></pre><h2 id="arithmetic-operators-for-numeric-vectors">Arithmetic operators for numeric vectors</h2>
+<p>The arithmetic operations of numeric vectors are very simple. They basically follow two rules: Element-wise operation and rotating the shorter vector.</p>
+<pre><code class="lang-r">&gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>) + <span class="hljs-number">2</span>
+</code></pre>
+<pre><code>[1] 3 4 5 6
+</code></pre><pre><code class="lang-r">&gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>) - c(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>)
+</code></pre>
+<pre><code>[1] -1 -1 -1
+</code></pre><pre><code class="lang-r">&gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>) * c(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>)
+</code></pre>
+<pre><code>[1]  2  6 12
+</code></pre><pre><code class="lang-r">&gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>) / c(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>)
+</code></pre>
+<pre><code>[1] 0.5000000 0.6666667 0.7500000
+</code></pre><pre><code class="lang-r">&gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>) ^ <span class="hljs-number">2</span>
+</code></pre>
+<pre><code>[1] 1 4 9
+</code></pre><pre><code class="lang-r">&gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>) ^ c(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>)
+</code></pre>
+<pre><code>[1]  1  8 81
+</code></pre><pre><code class="lang-r">&gt; c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">14</span>) %% <span class="hljs-number">2</span>
+</code></pre>
+<pre><code>[1] 1 0 1 0
+</code></pre><p>The operations do not function with corresponding names. Only the names of the left-hand side vector will remain.</p>
+<pre><code class="lang-r">&gt; c(a=<span class="hljs-number">1</span>,b=<span class="hljs-number">2</span>,c=<span class="hljs-number">3</span>) + c(b=<span class="hljs-number">2</span>,c=<span class="hljs-number">3</span>,d=<span class="hljs-number">4</span>)
+</code></pre>
+<pre><code>a b c 
+3 5 7
+</code></pre><pre><code class="lang-r">&gt; c(a=<span class="hljs-number">1</span>,b=<span class="hljs-number">2</span>,<span class="hljs-number">3</span>) + c(b=<span class="hljs-number">2</span>,c=<span class="hljs-number">3</span>,d=<span class="hljs-number">4</span>)
+</code></pre>
+<pre><code>a b   
+3 5 7
+</code></pre>
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../basic-objects/index.html" class="navigation navigation-prev " aria-label="Previous page: Basic objects"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../basic-objects/matrix.html" class="navigation navigation-next " aria-label="Next page: Matrix"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-ga/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"ga":{"token":"UA-47159422-1","configuration":"auto"}};
+    gitbook.start(config);
+});
+</script>
+
+        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-47159422-1', 'auto');ga('send', 'pageview');</script>
+    </body>
+    
+</html>
