@@ -40,7 +40,7 @@
     
 
         
-    <div class="book" data-level="4.2" data-basepath=".." data-revision="Tue Mar 31 2015 07:42:20 GMT+0800 (China Standard Time)">
+    <div class="book" data-level="4.2" data-basepath=".." data-revision="Wed Apr 01 2015 23:56:04 GMT+0800 (China Standard Time)">
     
 
 <div class="book-summary">
@@ -1573,14 +1573,14 @@ element will be used
 <pre><code>Not all values are greater than 2!
 </code></pre><p>In conclusion, every time we use <code>if</code> expression to branch the workflow, we should ensure that the condition is a single-value logical vector, or otherwise something unexpected may happen.</p>
 <h2 id="ifelse">ifelse</h2>
-<p>An alternative method to branch the workflow is the function <code>ifelse</code>. It is simple a function that accepts a single-value logical vector as the test condition. If it is <code>TRUE</code> then the second argument will be returned otherwise the third.</p>
+<p>An alternative method to branch the workflow is the function <code>ifelse</code>. It is a simple function that accepts a single-value logical vector as the test condition. If it is <code>TRUE</code> then the second argument will be returned otherwise the third.</p>
 <pre><code class="lang-r">num1 &lt;- <span class="hljs-number">2</span>
 num2 &lt;- <span class="hljs-number">3</span>
 num3 &lt;- ifelse(num1 &gt; <span class="hljs-number">0</span> &amp; num2 &lt; <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>)
 num3
 </code></pre>
 <pre><code>[1] 0
-</code></pre><p>However, this function is not recommend because it only supports single-value vector in all arguments.</p>
+</code></pre><p>However, this function is not recommended because it only supports single-value vector in all arguments.</p>
 <pre><code class="lang-r">ifelse(<span class="hljs-literal">TRUE</span>, c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>), c(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>))
 </code></pre>
 <pre><code>[1] 1

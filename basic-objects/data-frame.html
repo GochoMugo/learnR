@@ -40,7 +40,7 @@
     
 
         
-    <div class="book" data-level="3.5" data-basepath=".." data-revision="Tue Mar 31 2015 07:42:20 GMT+0800 (China Standard Time)">
+    <div class="book" data-level="3.5" data-basepath=".." data-revision="Wed Apr 01 2015 23:56:04 GMT+0800 (China Standard Time)">
     
 
 <div class="book-summary">
@@ -1801,7 +1801,7 @@ level, NA generated
 1     &lt;NA&gt;   Male  24          Finance
 2   Ashley Female  25       Statistics
 3 Jennifer Female  23 Computer Science
-</code></pre><p>a warning message appears. It happens because in the initial <code>Name</code> dictionary, there is no word called John, therefore we cannot set the name of the first person to be such &quot;non-existing&quot; value. The same thing happens when we set any <code>Gender</code> to be <code>Unknown</code>. The reason is the exactly the same: when the column is initially created from a character vector while we define a data frame, the column will by default be a factor whose value must be taken from the dictionary created from the unique values in that character vector.</p>
+</code></pre><p>a warning message appears. It happens because in the initial <code>Name</code> dictionary, there is no word called John, therefore we cannot set the name of the first person to be such &quot;non-existing&quot; value. The same thing happens when we set any <code>Gender</code> to be <code>Unknown</code>. The reason is  exactly the same: when the column is initially created from a character vector while we define a data frame, the column will by default be a factor whose value must be taken from the dictionary created from the unique values in that character vector.</p>
 <p>This behavior is sometimes very annoying and does not really help much, especially when memory is cheap today. The simplist way to avoid this behavior is to set <code>stringsAsFactors = FALSE</code> when we create a data frame.</p>
 <pre><code class="lang-r">&gt; persons &lt;- data.frame(Name=c(<span class="hljs-string">&quot;Ken&quot;</span>,<span class="hljs-string">&quot;Ashley&quot;</span>,<span class="hljs-string">&quot;Jennifer&quot;</span>),
 +   Gender=factor(c(<span class="hljs-string">&quot;Male&quot;</span>,<span class="hljs-string">&quot;Female&quot;</span>,<span class="hljs-string">&quot;Female&quot;</span>)),

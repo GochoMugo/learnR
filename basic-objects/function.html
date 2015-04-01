@@ -40,7 +40,7 @@
     
 
         
-    <div class="book" data-level="3.6" data-basepath=".." data-revision="Tue Mar 31 2015 07:42:20 GMT+0800 (China Standard Time)">
+    <div class="book" data-level="3.6" data-basepath=".." data-revision="Wed Apr 01 2015 23:56:04 GMT+0800 (China Standard Time)">
     
 
 <div class="book-summary">
@@ -1524,7 +1524,7 @@
 </code></pre><h2 id="generalizing-a-function">Generalizing a function</h2>
 <p>Functions are well-defined abstraction of a particular set of logic or process intended for solving some particular problem. We often want a function to adapt to a wider scenario so that we can use it to solve similar problems without writing too many highly specialized functions.</p>
 <p>To make a function more widely applicable is called <em>generalization</em>. It is very handy to generalize a function in a weakly-typed programming language like R, but it can be error-prone if it is incorrectly implemented.</p>
-<p>To make <code>add</code> function more general that can handle various primitive algebraic operations, we can define another function called <code>calc</code>. This new function accepts three arguments where <code>x</code> and <code>y</code> are the two vectors, and <code>type</code> accepts a character vector the the kind of algebraic operation the user want to perform.</p>
+<p>To make <code>add</code> function more general that can handle various primitive algebraic operations, we can define another function called <code>calc</code>. This new function accepts three arguments where <code>x</code> and <code>y</code> are the two vectors, and <code>type</code> accepts a character vector  the kind of algebraic operation the user wants to perform.</p>
 <p>The following code implements such a function by using <em>flow control</em>, which we will cover in the next chapter. In the code, which expression is to be evaluated depends on the value of <code>type</code>.</p>
 <pre><code class="lang-r">calc &lt;- <span class="hljs-keyword">function</span>(x,y,type) {
   <span class="hljs-keyword">if</span>(type == <span class="hljs-string">&quot;add&quot;</span>) {
