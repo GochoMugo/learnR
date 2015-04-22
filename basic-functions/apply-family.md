@@ -105,9 +105,9 @@ Fortunately, a major part of how we use `lapply` also works with other apply-fam
 
 ## sapply
 
-List is not always a favorable way to collect the results. Sometimes we want the results to be put in a simple vector or a matrix. `sapply` simplifies the result according to its structure.
+List is not always a favorable container of the results. Sometimes we want the results to be put in a simple vector or a matrix. `sapply` simplifies the result according to its structure.
 
-Suppose we apply a square on each element of `1:10`. If we do it with `lapply`, we will have a list of squared numbers. However, we might want to keep the results still as a vector.
+Suppose we apply a square on each element of `1:10`. If we do it with `lapply`, we will have a list of squared numbers. This result looks a bit heavy and redundant because the resulted list is actually a list of single-valued numeric vectors. However, we might want to keep the results still as a vector.
 
 
 ```r
@@ -133,6 +133,38 @@ sapply(1:10, function(i) c(i,i^2))
 
 ## vapply
 
+`sapply` is very handy and smart, but sometimes the smartness may become a downside risk. Suppose we have a list of input numbers. 
+
+
+```r
+x <- list(1, 5, 2, c(2,3), 4)
+```
+
+If we want to get a numeric vector of the squared numbers for each number in `x`, `sapply` can be easy to use.
+
+
+```r
+sapply(x, "^", 2)
+```
+
+```
+[[1]]
+[1] 1
+
+[[2]]
+[1] 25
+
+[[3]]
+[1] 4
+
+[[4]]
+[1] 4 9
+
+[[5]]
+[1] 16
+```
+
+
 `vapply` is the safer version of `sapply`. 
 
 
@@ -145,7 +177,6 @@ vapply(1:10, function(i) c(i,i^2), numeric(2))
 [1,]    1    2    3    4    5    6    7    8    9    10
 [2,]    1    4    9   16   25   36   49   64   81   100
 ```
-
 
 ## mapply
 

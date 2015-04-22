@@ -124,7 +124,7 @@ The following list contains all built-in distributions and their corresponding r
 | [Cauchy distribution](//en.wikipedia.org/wiki/Cauchy_distribution) | `rcauchy(n = , location = 0, scale = 1)` |
 | [Chi-squared distribution](//en.wikipedia.org/wiki/Chi-squared_distribution) | `rchisq(n = , df = , ncp = 0)` |
 | [Exponential distribution](//en.wikipedia.org/wiki/Exponential_distribution) | `rexp(n = , rate = 1)` |
-| [F distribution](//en.wikipedia.org/wiki/F-distribution) | `df(x = , df1 = , df2 = , ncp = , log = FALSE)` |
+| [F distribution](//en.wikipedia.org/wiki/F-distribution) | `df()` |
 | [Gamma distribution](//en.wikipedia.org/wiki/Gamma_distribution) | `rgamma(n = , shape = , rate = 1, scale = 1/rate)` |
 | [Geometric distribution](//en.wikipedia.org/wiki/Geometric_distribution) | `rgeom(n = , prob = )` |
 | [Hypergeometric distribution](//en.wikipedia.org/wiki/Hypergeometric_distribution) | `rhyper(nn = , m = , n = , k = )` |
@@ -286,7 +286,7 @@ t.test(classA,classB)
 	Welch Two Sample t-test
 
 data:  classA and classB
-t = -0.3302, df = 24.708, p-value = 0.744
+t = -0.33019, df = 24.708, p-value = 0.744
 alternative hypothesis: true difference in means is not equal to 0
 95 percent confidence interval:
  -1.0991073  0.7955359
