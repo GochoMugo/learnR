@@ -19,7 +19,7 @@ R is very popular, if not the most, statistical programming language and platfor
 
 #### It's flexible
 
-R is a carefully designed dynamic script language. It is highly flexible to allow programming styles of multiple paradigms like object-oriented programming, functional programming, meta programming, and etc. Its flexibility enables you to write robust code to perform a wide range of data operations.
+R is a carefully designed dynamic script language. It is highly flexible to allow programming styles of multiple paradigms like object-oriented programming, functionality programming, meta programming, and etc. Its flexibility enables you to write robust code to perform a wide range of data operations.
 
 #### It's reproducible
 
