@@ -126,7 +126,7 @@ To avoid such ambiguity explicitly, we need to refine the function so that the e
 
 ```{r}
 calc <- function(x,y,type) {
-  if(length(type) != 1L) stop("Only a single type is accepted")
+  if(length(type) != 1L) stop("Only a single entry type is accepted")
   if(type == "add") {
     x+y
   } else if(type == "minus") {
@@ -153,7 +153,7 @@ A powerful function is often able to accept a wide range of input and meet a var
 
 If each time we have to specify tens of arguments for a powerful function, it would certainly be a mess. In this case, reasonable default values for arguments will largely simplify the code to call a function.
 
-The set the default value of an argument, use `arg=value` like the following example:
+To set the default value of an argument, use `arg=value` like in the following example:
 
 ```{r}
 increase <- function(x,y=1) {

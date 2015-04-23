@@ -50,7 +50,7 @@ Its workflow is very simple:
 - Evaluate the expression after the first `if`. 
 - If it is `TRUE`, then evaluate its corresponding expression, otherwise evaluate the expression in the next `else if` branch. 
 - Repeat
-- If the logical conditions in all `if` and `else if` branches are violated, then evaluate the expression in `else` branch, if any.
+- If the logical conditions in all `if` and `else if` branches are not satisfied, then evaluate the expression in `else` branch, if any.
 
 Since `if` is in essence a primitive function in R, `if` expression can be used as an inline expression too.
 

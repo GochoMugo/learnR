@@ -8,9 +8,9 @@ opts_chunk$set(prompt=FALSE, comment='', results='markup')
 
 # Loop
 
-Loop (or iternation) repeatedly evaluates an expression by either iterating over a vector (`for`) or checking whether a condition is violated (`while`).
+Loop (or iteration) repeatedly evaluates an expression by either iterating over a vector (`for`) or checking whether a condition is violated (`while`).
 
-Such language constrcuts largely reduce the redundancy of the code if the same task is run over and over again each time with some changes in input.
+Such language constructs largely reduce the redundancy of the code if the same task is run over and over again each time with some changes in input.
 
 ## for-loop
 
@@ -39,7 +39,7 @@ for(i in 1:5) {
 }
 ```
 
-We can also use `next` to skip the rest expressions in the current iteration and directly jump to the next one.
+We can also use `next` to skip the rest expressions in the current iteration and directly jump to the next one. Note that `next` can be compared with `continue` in other programming languages.
 
 ```{r}
 for(i in 1:5) {
@@ -75,7 +75,7 @@ for(col in df) {
 
 Previously, we mentioned that a data frame is a list in which each element (or column) must have the same length. Therefore, the loop above iterates over the columns rather than rows, which is consistent with the behavior when `for` runs over an ordinary list.
 
-However, in many cases, we want to iterate a data frame row by row. We can also do this with `for` but over a integer sequence from 1 to the number of rows of the data frame.
+However, in many cases, we want to iterate over a data frame row by row. We can also do this with `for` but over a integer sequence from 1 to the number of rows of the data frame.
 
 As long as `i` gets its value, we can single out that particular row and do something with it.
 
@@ -87,13 +87,13 @@ for(i in 1:nrow(df)) {
 
 ```
 
-If each iteration is independent with each other, then we should avoid using `for` but higher-order functions such as `lapply`. We will talk about it in detail in the next chapter.
+If each iteration is independent of each other, then we should avoid using `for` but instead use higher-order functions such as `lapply`. We will talk about it in detail in the next chapter.
 
 ## while-loop
 
 In constrast to for-loop, while-loop does not stop running until the given condition is violated.
 
-For example, the following while-loop starts with `x = 0`. Each time, the loop checks whether `x <= 10` holds. If so, the inner expressions are evaluated; otherwise the while-loop terminates.
+For example, the following while-loop starts with `x = 0`. Each time, the loop checks whether `x <= 5` holds. If so, the inner expressions are evaluated; otherwise the while-loop terminates.
 
 ```{r}
 x <- 0
@@ -103,7 +103,7 @@ while(x <= 5) {
 }
 ```
 
-If we remove `x <- x + 1` so that `x` no longer gains any increment, the code will not terminate until the system is killed. Therefore, while loop can sometimes be dangerous if the change is not properly implemented.
+If we remove `x <- x + 1` so that `x` no longer gains any increment, the code will not terminate until the system is killed. Therefore, while-loop can sometimes be dangerous if the change is not properly implemented.
 
 The flow-control expressions like `break` and `next` are also applicable for `while`.
 

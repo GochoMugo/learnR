@@ -57,7 +57,7 @@ The space character is by default used as the separator between the arguments in
 An alternative function is `message()` which is often used in serious situations like error or important event. And the output text has more conspicuous appearance. It distincts from `cat()` in that it does not use separator.
 
 ```{r}
-message("Hello, ",name," - a user of ",user)
+message("Hello, ",name," - a user of ",userof)
 ```
 
 Therefore we show the same text, we need to write the separators manually.
